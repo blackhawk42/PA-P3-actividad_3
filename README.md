@@ -25,3 +25,24 @@ Show that your code works by having a set of threads (10 or 20) that repeat the 
 4. get out of the tunnel on the other end.
 
 To test your protocol, you may want to experiment with various parameters (make one direction much more popular than the other to make sure that starvation does not happen, change N, etc.) 
+
+
+# Building and running
+
+On a UNIX-like system, run:
+
+```
+gcc -pthread -o tunnel.exe tunnel.c
+```
+
+Or, if you have GNU make:
+
+```
+make
+```
+
+To run the execute the program, run:
+
+```
+./tunnel.exe
+```
