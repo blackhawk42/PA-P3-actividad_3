@@ -41,7 +41,7 @@ Or, if you have GNU make:
 make
 ```
 
-To run the execute the program, run:
+To execute the program, run:
 
 ```
 ./tunnel.exe
